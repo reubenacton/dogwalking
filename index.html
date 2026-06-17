@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paws & Walks Dog Walking</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        header h1 {
+            font-size: 3rem;
+        }
+
+        header p {
+            margin-top: 10px;
+            font-size: 1.2rem;
+        }
+
+        section {
+            max-width: 1000px;
+            margin: auto;
+            padding: 50px 20px;
+        }
+
+        .card {
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            margin-bottom: 25px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            margin-bottom: 15px;
+            color: #4CAF50;
+        }
+
+        .prices {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .price-box {
+            flex: 1;
+            min-width: 200px;
+            background: #e8f5e9;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .price {
+            font-size: 2rem;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        input, textarea {
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        button {
+            background: #4CAF50;
+            color: white;
+            border: none;
+            padding: 12px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1rem;
+        }
+
+        button:hover {
+            background: #45a049;
+        }
+
+        footer {
+            text-align: center;
+            background: #333;
+            color: white;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>🐾 Paws & Walks</h1>
+    <p>Reliable, friendly dog walking in your local area.</p>
+</header>
+
+<section>
+
+    <div class="card">
+        <h2>About Us</h2>
+        <p>
+            We provide safe, fun and professional dog walking services.
+            Whether your dog needs a quick stroll or a long adventure,
+            we're here to help keep them happy and healthy.
+        </p>
+    </div>
+
+    <div class="card">
+        <h2>Prices</h2>
+
+        <div class="prices">
+
+            <div class="price-box">
+                <h3>30 Minute Walk</h3>
+                <div class="price">£10</div>
+                <p>Perfect for smaller dogs.</p>
+            </div>
+
+            <div class="price-box">
+                <h3>60 Minute Walk</h3>
+                <div class="price">£15</div>
+                <p>Our most popular option.</p>
+            </div>
+
+            <div class="price-box">
+                <h3>90 Minute Walk</h3>
+                <div class="price">£20</div>
+                <p>Extra exercise and fun.</p>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="card">
+        <h2>Contact Us</h2>
+
+        <p><strong>Phone:</strong> 07123 456789</p>
+        <p><strong>Email:</strong> hello@pawsandwalks.co.uk</p>
+
+        <br>
+
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea rows="5" placeholder="Tell us about your dog..."></textarea>
+            <button type="submit">Send Enquiry</button>
+        </form>
+    </div>
+
+</section>
+
+<footer>
+    <p>© 2026 Paws & Walks Dog Walking Services</p>
+</footer>
+
+</body>
+</html>
